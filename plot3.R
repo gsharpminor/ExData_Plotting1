@@ -24,8 +24,4 @@ lines(b$exacttime, b$Sub_metering_3, col = "blue")
 legend("topright", col = c("black", "blue", "red"), lty = c(1, 1, 1),
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), cex = 1)
 lines(b$exacttime, b$Global_active_power)
-<<<<<<< HEAD
 dev.off()
-=======
-dev.off()
->>>>>>> 414e2593c8ff3439022fcfbad12452251079c2a9
