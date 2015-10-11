@@ -25,8 +25,4 @@ colnames(b)[1] <- "exacttime"
 png(file = "plot1.png", width = 480, height = 480)
 hist(as.numeric(b$Global_active_power), main = "Global Active Power", col = "red", breaks = 15,
      xlab = "Global Active Power (kilowatts)", ylab = "Frequency")
-<<<<<<< HEAD
 dev.off()
-=======
-dev.off()
->>>>>>> 414e2593c8ff3439022fcfbad12452251079c2a9
